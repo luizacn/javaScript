@@ -22,11 +22,12 @@
 
 <body>
     <div id="area">
-        <!--onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()" essa linha de comando que estava na sequencia da <div id="area"> no HTML, pode ser substituida pelas linhas a.addEventListener dentro do JavaScrpit, como pode abaixo -->
+        <!--onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()" essa linha de comando que estava na sequencia da <div id="area"> no HTML, pode ser substituida pelas linhas a.addEventListener dentro do JavaScrpit, como ver pode abaixo -->
         Interaja...
     </div>
     <script>
         var a = window.document.getElementById('area')
+        // essas linha abaixo fazem a ligação entre o javascript eo html
         a.addEventListener('click', clicar)
         a.addEventListener('mouseenter', entrar)
         a.addEventListener('mouseout', sair)
